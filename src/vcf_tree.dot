@@ -2,7 +2,7 @@ digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
 0 [label="TLOD <= 169.08\ngini = 0.258\nsamples = 486\nvalue = [412, 74]\nclass = False", fillcolor="#e58139d1"] ;
-1 [label="ECNT <= 1.5\ngini = 0.069\nsamples = 417\nvalue = [402, 15]\nclass = False", fillcolor="#e58139f5"] ;
+1 [label="MIN_ED <= 0.5\ngini = 0.069\nsamples = 417\nvalue = [402, 15]\nclass = False", fillcolor="#e58139f5"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="TLOD <= 57.335\ngini = 0.413\nsamples = 48\nvalue = [34, 14]\nclass = False", fillcolor="#e5813996"] ;
 1 -> 2 ;
